@@ -1,0 +1,22 @@
+name: flutter_go_map
+description: 跳转打开第三方地图的进行导航的工具
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^5.7.10 # 启动第三方应用
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: any
+flutter:
